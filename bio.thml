@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bio</title>
+</head>
+<body>
+<h1>Teresa's Bio</h1>
+<hr>
+<img src="images/Me pic.JPG", alt="Teresa">
+<br>
+<P>Teresa is a woman who is trying to learn how to code. She goes to class at SMU three times a week!
+    Her favorite language so far is SQL. 
+</P>
+<P>Outside of coding, Teresa enjoys doing yoga, pilates and riding her bike. She also loves to cook
+    and experiments with flavors all the time. 
+</P>
+
+<ul>
+    <li><a href="https://www.linkedin.com/in/teresa-barajas-12b639b9/">Teresa's Work Experience</a>
+    </li>
+    <li><a href="https://www.instagram.com/terrserr/">Teresa's instagram</a>
+    </li>
+</ul>
+<br>
+<table border = "1">
+    <tr>
+    <th colspan = "3">Teresa's picks</th>
+    </tr>
+    <tr>
+        <th>Music</th>
+        <th>Movies</th>
+        <th>Books</th>
+    </tr>
+    <tr>
+        <td>AlunaGeorge</td>
+        <td>The Shape of Water</td>
+        <td>Throne of Glass</td>
+    </tr>
+    <tr>
+            <td>Little Drago</td>
+            <td>Call me by your Name</td>
+            <td>Game of Thrones</td>
+        </tr>
+
+</table>
+
+
+</table>
+</body>
+</html>
