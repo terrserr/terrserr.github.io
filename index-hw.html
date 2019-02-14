@@ -22,28 +22,58 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                              <li><a href="https://terrserr.github.io/temperature">Max Temperature</a></li>
-                              <li><a href="https://terrserr.github.io/humidity">Humidity</a></li>
-                              <li><a href="https://terrserr.github.io/cloudiness">Cloudiness</a></li>
-                              <li><a href="https://terrserr.github.io/windspeed">Wind Speed</a></li>
-                            </ul>
+                              <li><a href="https://terrserr.github.io/temperature.html">Max Temperature</a></li>
+                              <li><a href="https://terrserr.github.io/humidity.html">Humidity</a></li>
+                              <li><a href="https://terrserr.github.io/cloudiness.html">Cloudiness</a></li>
+                              <li><a href="https://terrserr.github.io/windspeed.html">Wind Speed</a></li>
+                    </ul>
                         <li><a href="https://terrserr.github.io/comparisons">Comparison</a></li>
                         <li><a href="https://terrserr.github.io/data">Data</a></li>
                         </ul> 
                    </div> 
             </nav>
 
-            <div class="row">
-                <div class="col-xs-6 col-md-3">
-                    <img src="assets\images\Fig1.png" alt="...">
-                </div>
-                ...
-            </div>
 
+                    <div class="row">
+                            <div class="col-xs-12 col-lg-6">
+                            <div class="panel panel-default">
+                                    <div class="panel-heading">Summary: Latitude vs. X</div>
+                                    <div class="panel-body">
+                                      <img width = 75% src="assets\images\Fig1.png" alt="fig1">
+                                      <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.
+                                            To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. 
+                                            
+                                            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included temperature, cloudiness, wind speed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. 
+                                            </p>
+                                    </div>
+                            </div>
+                            </div>
 
-
-
-
+                            <div class="col-xs-12 col-lg-6">
+                                    <div class="panel panel-default">
+                                            <div class="panel-heading">Visualizations</div>
+                                            <div class="panel-body">
+                                                <div class="row">
+                                                    <div class="col-xs-6 col-lg-3">
+                                                        <a href="https://terrserr.github.io/temperature.html"><img width = 100% src="assets\images\Fig1.png" alt="fig1"></a>
+                                                    </div>
+                                                    <div class="col-xs-6 col-lg-3">
+                                                            <a href="https://terrserr.github.io/humidity.html"><img width = 100% src="assets\images\Fig2.png" alt="fig2"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                        <div class="col-xs-6 col-lg-3">
+                                                                <a href="https://terrserr.github.io/cloudiness.html"><img width = 100% src="assets\images\Fig3.png" alt="fig3"></a>
+                                                        </div>
+                                                        <div class="col-xs-6 col-lg-3">
+                                                                <a href="https://terrserr.github.io/windspeed.html"><img width = 100% src="assets\images\Fig4.png" alt="fig4"></a>
+                                                        </div>
+                                                    </div>
+                                    
+                                            </div>
+                                    </div>
+                            </div>
+                        </div>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
